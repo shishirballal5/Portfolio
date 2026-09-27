@@ -14,4 +14,5 @@ export default defineConfig({
   server: {
     port: parseInt(process.env.PORT || '8443'),
   },
+   base: "/Portfolio/",
 })
