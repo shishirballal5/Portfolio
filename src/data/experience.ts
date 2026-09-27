@@ -1,0 +1,47 @@
+export const EXPERIENCE = [
+  {
+    title: "Senior Software Developer",
+    company: "Mindstack Technologies Pvt. Ltd.",
+    location: "Mangalore, India (Remote)",
+    period: "Feb 2026 – Present",
+    current: true,
+    color: "#00f0ff",
+    metrics: [
+      { val: "5",     label: "Live Fintech Products" },
+      { val: "50K+",  label: "Users Served" },
+      { val: "99.9%", label: "Uptime" },
+      { val: "6",     label: "Devs Mentored" },
+    ],
+    points: [
+      "Build and maintain backend services for 5 live fintech products serving 50K+ users.",
+      "Deliver 70+ robust, well-documented REST APIs using NestJS, Node.js, TypeScript, PostgreSQL, and MySQL.",
+      "Ensure 99.9% service availability through production monitoring, log analysis, debugging, and server issue resolution.",
+      "Conduct code reviews and mentor 6 junior developers on backend development, API design, and coding standards.",
+      "Containerized apps with Docker and Coolify on AWS, slashing deployments from 1 hour to 10 minutes.",
+      "Lead 1–2 developers on tight-deadline projects, working with product, QA, and business teams.",
+    ],
+    stack: ["NestJS", "TypeScript", "PostgreSQL", "MySQL", "Docker", "AWS", "Redis", "GitHub Actions"],
+  },
+  {
+    title: "Software Developer",
+    company: "Mindstack Technologies Pvt. Ltd.",
+    location: "Mangalore, India (Remote)",
+    period: "Jun 2023 – Jan 2026",
+    current: false,
+    color: "#bf5af2",
+    metrics: [
+      { val: "40+",  label: "APIs Built" },
+      { val: "100K+",label: "Transactions" },
+      { val: "30%",  label: "Faster Queries" },
+      { val: "15min",label: "KYC Onboarding" },
+    ],
+    points: [
+      "As the sole backend developer, built and maintained 40+ REST APIs using NestJS, TypeScript, and Swagger.",
+      "Integrated Razorpay (100K+ transactions), Agora (real-time communication), and MSG91 (SMS/OTP services).",
+      "Designed a multi-tenant system with virtual wallets, RBAC, authentication, and transaction workflows — supporting 10+ tenants and 10K+ monthly transactions.",
+      "Streamlined KYC and e-signature processes via Digio, shrinking onboarding from 2 days to 15 minutes.",
+      "Reduced API response time by 30% by optimizing PostgreSQL/MySQL queries, indexes, and adding Redis caching.",
+    ],
+    stack: ["NestJS", "TypeScript", "Razorpay", "Agora", "MSG91", "Digio", "PostgreSQL", "Redis"],
+  },
+];
