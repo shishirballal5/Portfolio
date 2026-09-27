@@ -5,14 +5,14 @@ Personal portfolio site built with React 19, Vite 8, TypeScript and Tailwind CSS
 ## Getting started
 
 ```bash
-pnpm install
-pnpm dev       # start the dev server (port $PORT, default 8443)
-pnpm build     # production build
-pnpm preview   # preview the production build
-pnpm format    # format with oxfmt
+npm install
+npm run dev      # start the dev server (port $PORT, default 8443)
+npm run build    # production build
+npm run preview  # preview the production build
+npm run format   # format with oxfmt
 ```
 
-Toolchain versions (Node.js 22, pnpm) are pinned in `.mise.toml`.
+Toolchain versions (Node.js 22) are pinned in `.mise.toml`.
 
 ## Project structure
 
